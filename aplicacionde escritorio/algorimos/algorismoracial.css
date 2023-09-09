@@ -1,0 +1,45 @@
+html{
+    background-image:url(./login/imagenes/degradado3.PNG);
+    box-sizing: border-box;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+
+    width: 30%;
+    padding: 30px;
+    border-radius: 40px 0px ;
+   animation: for 4s 2;
+}
+@keyframes for{
+   
+10%{box-shadow: blue 1px  ;}
+20%{box-shadow: blue 1px 5px ;}
+30%{box-shadow: blue 1px 5px 5px  ;}
+30%{box-shadow: blue 1px 5px 5px 5px ;}
+100%{box-shadow: blue 1px 5px 5px 5px ;}
+}
+h1{
+    text-align: center;
+}
+.formularioalgorimos{
+    display: flex;
+    justify-content: center;
+align-items: center;
+
+
+}
+input,select{
+    width: 100%;
+}
+button{
+margin-left: 10px;
+    width: 30%;
+    padding: 5px;
+}
+.pdf{
+ 
+    margin: 10px 143px;
+
+}

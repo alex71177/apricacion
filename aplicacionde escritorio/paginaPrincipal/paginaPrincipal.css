@@ -1,0 +1,66 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    background-image: url("degradado3.PNG");
+background-repeat: no-repeat;
+box-sizing: border-box;
+background-size: cover;
+}
+.appprincipal{
+display: flex;
+justify-content: space-around;
+align-items: center;
+background: rgb(5, 5, 5);
+}
+h1{
+    background-image: linear-gradient(to right, green, yellow, red);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+background-clip: text;
+
+}
+
+a{
+    text-decoration: none;
+list-style: none;
+font-size: 25px;
+color: aqua;
+
+}
+a:hover{
+    text-decoration: underline solid 4px rgb(10, 238, 2);
+}
+img{
+   width: 30%;
+   margin-left: 500px ;
+   margin-top: 100px;
+}
+aside{
+width: 15%;
+background: black;
+opacity: 0.8;
+position: absolute;
+display: none;
+
+}
+i{
+    font-size: 30px;
+}
+li{
+    color: aqua;
+    font-size: 20px;
+    font-weight: 800;
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+}
+li:hover{
+    text-decoration: underline 3px solid rgb(5, 250, 5);
+}
+.imagenLogin img{
+    width: 20px;
+}

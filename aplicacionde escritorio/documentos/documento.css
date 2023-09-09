@@ -1,0 +1,106 @@
+
+/* body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+h1 {
+    color: #333;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    text-align: left;
+}
+
+label, textarea, select, input[type="text"],input[type="email"],input[type="number"], input[type="file"], button {
+    margin: 10px 0;
+    display: block;
+    width: 100%;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0078d4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005a9e;
+}
+
+#confirmation {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+#confirmation h2 {
+    color: #333;
+} */
+
+
+/* esto es para el chatbos */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+#chat-container {
+
+
+    display: none;
+}
+.container{
+    width: 20%;
+
+   
+}
+/* .chat{
+   
+} */
+#chat-output {
+
+    max-height: 300px;
+    overflow-y: scroll;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+  
+    padding: 10px ;
+    background-color: #0078d4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: -200px;
+}
+
+button:hover {
+    background-color: #005a9e;
+}
+i{
+    font-size: 40px;
+    margin-left: -200px;
+}
